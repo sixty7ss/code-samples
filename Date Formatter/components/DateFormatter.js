@@ -12,7 +12,6 @@ const defaults = {
     day: undefined,
     year: undefined,
   },
-  isMultiDay: false,
   hasStartTime: false,
   hasEndTime: false,
 };
@@ -27,9 +26,7 @@ export default class DateFormatter {
   }
 
   fixDate() {
-    const { element } = this;
-    const { $element } = this;
-    const { settings } = this;
+    const { element, $element, settings } = this;
     const hasPostDate = $element.find('.post-date').length > 0;
     const isEvent = $element.find('.post-date').is('.upcoming');
     const isTwitterFeed = $element.find('.handle + .date').length > 0;
@@ -62,7 +59,6 @@ export default class DateFormatter {
           const endDate = element.querySelector('.date-display-end').childNodes[0].nodeValue;
           // Extract start date data
           this.extractDate(startDate);
-          settings.isMultiDay = true;
           // Extract end date data
           this.extractDate(endDate, true);
           newDateString = `<span class="date-time-rendered">${settings.start.month}.${settings.start.day}${(settings.start.year !== settings.end.year) ? `.${settings.start.year}` : ''} - ${settings.end.month}.${settings.end.day}.${(settings.start.year !== settings.end.year) ? settings.start.year : settings.end.year}</span>`;
