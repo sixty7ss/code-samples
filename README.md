@@ -19,7 +19,7 @@ This is a tool I built to allow me to take the default date rendered by Drupal a
 format requested by the designed. As there are multiple displays that use these dates, I had to include 
 support for not only events, but also news articles and, in one case, the Twitter feed.
 
-- [code sample source](https://github.com/sixty7ss/code-samples/tree/master/Date%20Formatter)
+[code sample source](https://github.com/sixty7ss/code-samples/tree/master/Date%20Formatter)
 
 ---
 
@@ -29,7 +29,7 @@ Often, the designer requests that a string, such a block title, be styled in mul
 two different colors or italicizing the last word. I created this simple script to split that string 
 into usable spans to allow me to do so.
 
-- [code sample source](https://github.com/sixty7ss/code-samples/tree/master/String%20Splitter)
+[code sample source](https://github.com/sixty7ss/code-samples/tree/master/String%20Splitter)
 
 ---
 
@@ -37,4 +37,4 @@ into usable spans to allow me to do so.
 
 This is an example of my typical directory structure, code style, and code standards.
 
-- [code sample source](https://github.com/sixty7ss/code-samples/tree/master/Style%20Structure)
+[code sample source](https://github.com/sixty7ss/code-samples/tree/master/Style%20Structure)
