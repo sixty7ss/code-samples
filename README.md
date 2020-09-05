@@ -2,7 +2,7 @@
 
 ## Websites
 
-I was responsible for implementing our base theme and all custom styling and functionality of the following websites. Those with an asterisk are not yet live.
+I was responsible for implementing our base theme and all custom styling and functionality of the following websites. Those with an asterisk are not yet live and may have some goofs as the clients are working on content.
 
 - [Central Ohio Technical College *](https://live-cotc2020.pantheonsite.io/)
 - [California Institute for Behavioral Health Solutions *](https://live-cibhs-2020.pantheonsite.io/)
@@ -16,7 +16,7 @@ Below are details of the examples of my code and structure included in this repo
 ### Date Formatter
 
 This is a tool I built to allow me to take the default date rendered by Drupal and convert it to the
-format requested by the designed. As there are multiple displays that use these dates, I had to include 
+format requested by the designer. As there are multiple displays that use these dates, I had to include 
 support for not only events, but also news articles and, in one case, the Twitter feed.
 
 [code sample source](https://github.com/sixty7ss/code-samples/tree/master/Date%20Formatter)
