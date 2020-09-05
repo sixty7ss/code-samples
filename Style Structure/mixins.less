@@ -1,0 +1,23 @@
+// =============================================================================
+// MIXINS
+// =============================================================================
+
+.fill-parent(@d: 0) {
+  position: absolute !important;
+  top: @d;
+  right: @d;
+  bottom: @d;
+  left: @d;
+}
+
+.letter-spacing(@spacing) {
+  letter-spacing: (@spacing / 1000) * 1em;
+}
+
+.logo-majik(@header-height; @margin; @ratio: 2.8) {
+  height: @header-height * (1 - (@margin * 2));
+  width: calc((@header-height * 0.7) * @ratio);
+  @newMargin: @header-height * @margin;
+
+  margin-top: unit(@newMargin, px);
+}

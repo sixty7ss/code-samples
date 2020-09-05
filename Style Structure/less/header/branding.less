@@ -1,0 +1,57 @@
+// =============================================================================
+// SITE BRANDING
+// =============================================================================
+
+.branding {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  .name,
+  .slogan,
+  .mission {
+    display: none;
+  }
+
+  // logo
+  .logo {
+    position: relative;
+    padding: 0;
+    transition: @transition-base;
+
+    a {
+      display: inline-block;
+      line-height: 0;
+
+      &.focus-visible {
+        background-color: @a11y-bg--hover;
+        outline: 0;
+      }
+    }
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+    }
+  }
+
+  @media @tablet-down {
+    .logo {
+      .logo-majik(@mobile-header-height, 0.15);
+    }
+  }
+
+  @media @desktop {
+    .logo {
+      .logo-majik(@desktop-header-height, 0.18);
+
+      a { .fill-parent; }
+
+      .not-top & {
+        .logo-majik(@minimized-header-height, 0.18);
+      }
+    }
+  }
+}

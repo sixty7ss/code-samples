@@ -1,0 +1,61 @@
+/* stylelint-disable property-no-unknown */
+// =============================================================================
+// THEME FONTS
+// =============================================================================
+
+@typekit-project-id: '#####'; // Project specific ID goes here
+
+@import 'https://use.typekit.net/@{typekit-project-id}.css';
+
+// Base Font Stacks
+@font_base: Lato, Helvetica, "Helvetica Neue", Arial, sans-serif;
+@font_mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+// Custom fonts
+@roboto-slab: roboto-slab, serif;
+@nobel: nobel, sans-serif;
+
+// Font mapping
+@F1: @nobel;
+@F2: @roboto-slab;
+
+// Base Font Size
+@base_font_size: 1.6rem;
+@base_line_height: 1.4;
+
+// Base Text Color
+@base_text_color: #21313b;
+
+// =============================================================================
+// THEME ICON FONT
+// =============================================================================
+
+// Base Theme Icons
+@import 'https://d1azc1qln24ryf.cloudfront.net/66770/BaseTheme/style-cf.css?d2wzd3';
+
+@icon-font-project: 'PROJECT'; // Project name goes here
+@icon-font-version: '#####'; // Project specific ID goes here
+
+@import 'https://d1azc1qln24ryf.cloudfront.net/66770/@{icon-font-project}/style-cf.css?@{icon-font-version}';
+
+@theme-icons: {
+  menu: "\3d";
+  search: "\3f";
+  close: "\d7";
+  chevron: "\e999";
+  facebook: "\e908";
+  twitter: "\e910";
+  youtube: "\e909";
+  tumblr: "\f173";
+  instagram: "\f16d";
+  linkedin: "\f0e1";
+  pinterest: "\f231";
+  phone: "\f095";
+  envelope: "\f0e0";
+  feed: "\f09e";
+  rss: "\f09e";
+}
+
+.theme-font {
+  .icon-font-basics('theme');
+}

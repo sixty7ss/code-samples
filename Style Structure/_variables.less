@@ -1,0 +1,113 @@
+/* stylelint-disable property-no-unknown */
+// =============================================================================
+// THEME VARIABLES
+// =============================================================================
+
+// Color Palatte
+@blue: #0c2340;
+@green: #008385;
+@aqua: #00a0a3;
+@yellow: #fcd100;
+@gray: #737b82;
+@light-gray: #e9ebee;
+@light-green: #7fa9ae;
+@orange: #d45d00;
+@purple: #833177;
+@dark-gray: #5b6770;
+
+// Theme Colors
+@C1: @blue;
+@C2: @green;
+@C3: @yellow;
+
+// Accessible defaults
+@a11y-grey: @gray;
+@a11y-grey--hover: #1d1d1d;
+@a11y-bg--hover: @light-gray;
+@a11y-bg--active: @light-gray;
+
+// Flyout background color
+@flyout-bg: @C2;
+
+// Term navigation dropdown background color.
+@term-nav-bg: @blue;
+
+// Base Border Color
+@base_border_color: #ccc;
+
+// Post bottom margin
+@post-bottom-margin: 35px;
+
+// Default sidebar widths
+@sidebar-left-width: 25%;
+@sidebar-right-width: 25%;
+
+// Default top/bottom gutters
+@standard-gutter: 35px;
+@gutter-top-height: 50px;
+@gutter-bottom-height: 50px;
+
+// Max width of content
+@max-width: @max-width-layout;
+
+// Header heights at various breakpoints.
+@header-heights: {
+  mobile: @mobile-header-height;
+  tablet: @tablet-header-height;
+  desktop: @desktop-header-height;
+  desktop-xl: @desktop-xl-header-height;
+  minimized: @minimized-header-height;
+}
+
+// Gutters relative to each breakpoint.
+@gutters: {
+  base: @base-gutter;
+  mobile: @mobile-gutter;
+  tablet: @tablet-gutter;
+  desktop: @desktop-gutter;
+  desktop-xl: @desktop-xl-gutter;
+  desktop-xxl: @desktop-xxl-gutter;
+}
+
+// Breakpoints map.
+@breakpoints: {
+  mobile: @mobile-breakpoint;
+  tablet: @tablet-breakpoint;
+  split: @split-breakpoint;
+  desktop: @desktop-breakpoint;
+  desktop-xl: @desktop-xl-breakpoint;
+  desktop-xxl: @desktop-xxl-breakpoint;
+}
+
+// [min] Media Queries created from the `@breakpoints` map.
+@mobile: ~'(min-width:' @breakpoints[mobile] ~')';
+@tablet: ~'(min-width:' @breakpoints[tablet] ~')';
+@split: ~'(min-width:' @breakpoints[split] ~')';
+@desktop: ~'(min-width:' @breakpoints[desktop] ~')';
+@desktop-xl: ~'(min-width:' @breakpoints[desktop-xl] ~')';
+@desktop-xxl: ~'(min-width:' @breakpoints[desktop-xxl] ~')';
+
+// [max] Media Queries created from the `min` versions above.
+@mobile-down: ~'(max-width:' (@breakpoints[tablet] - 1) ~')';
+@tablet-down: ~'(max-width:' (@breakpoints[desktop] - 1) ~')';
+@split-down: ~'(max-width:' (@breakpoints[split] - 1) ~')';
+@desktop-down: ~'(max-width:' (@breakpoints[desktop-xl] - 1) ~')';
+@desktop-xl-down: ~'(max-width:' (@breakpoints[desktop-xxl] - 1) ~')';
+
+// [only] Media Queries based on combinations of the `min` and `max` values.
+@mobile-only: @mobile-down;
+@tablet-only: @tablet ~'and' @tablet-down;
+@split-only: @split ~'and' @desktop-down;
+@desktop-only: @desktop ~'and' @desktop-down;
+@desktop-xl-only: @desktop-xl ~'and' @desktop-xl-down;
+
+// Asset paths.
+@theme_path: @theme-path;
+@faviconPath: @favicon-path;
+@imgPath: @img-path;
+
+// Text and box shadows
+@shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+
+// Transitions
+@transition-base: all 0.2s ease-in-out;

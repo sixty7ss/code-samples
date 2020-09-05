@@ -1,0 +1,53 @@
+// =============================================================================
+// PAGE FOOTER
+// =============================================================================
+
+.page-footer {
+  padding: 6rem 0;
+  font-family: @F2;
+  background-color: @C1;
+  color: #8a8c8e;
+
+  & > .layout {
+    @media @desktop {
+      display: flex;
+      flex-wrap: wrap;
+
+      & > * { flex: 0 0 percentage(1/3); }
+    }
+  }
+
+  .footer-logo-wrapper {
+    margin-bottom: 5rem;
+    box-sizing: border-box;
+
+    img {
+      width: 100%;
+      max-width: 300px;
+    }
+
+    @media @desktop {
+      margin-bottom: 0;
+
+      img { margin-right: 4rem; }
+    }
+  }
+
+  .creator {
+    margin: 3em 0 0;
+    text-align: right;
+
+    a {
+      font-weight: bold;
+      color: inherit;
+    }
+
+    span.ext {
+      display: none;
+    }
+
+    @media @desktop {
+      flex: 0 0 100% !important;
+    }
+  }
+}

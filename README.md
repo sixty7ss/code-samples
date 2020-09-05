@@ -35,6 +35,6 @@ into usable spans to allow me to do so.
 
 ### Style & Structure
 
-This is an example of my typical directory structure, code style, and code standards.
+This is an example of my typical directory structure, code style, and code standards. Files that begin with an underscore were not written by me, but are part of our standard model and are included to demonstrate structure. I do, however, add theme-specific code as necessary.
 
 [code sample source](https://github.com/sixty7ss/code-samples/tree/master/Style%20Structure)

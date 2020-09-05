@@ -1,0 +1,49 @@
+// =============================================================================
+// FOOTER LINKS
+// =============================================================================
+
+.footerlinks-wrapper {
+  @media @desktop {
+    position: relative;
+    flex: 0 0 percentage(1/3);
+  }
+}
+
+.footer-links {
+  ul,
+  li {
+    list-style-type: none;
+  }
+
+  li {
+    a {
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 2.5;
+      text-transform: uppercase;
+      .letter-spacing(75);
+
+      & + .ext { display: none; }
+    }
+
+    .focus-visible {
+      outline-color: white;
+      outline-width: 1px;
+    }
+  }
+
+  @media @desktop {
+    flex: 0 0 percentage(1/3);
+    margin-top: -8px;
+
+    ul {
+      columns: 2;
+      column-gap: 0;
+    }
+
+    li {
+      padding-right: 4rem;
+    }
+  }
+}
