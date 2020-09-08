@@ -1,5 +1,10 @@
 # Dave Young's Online Portfolio
 
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
 ### Websites
 
 I was responsible for implementing our base theme and all custom styling and functionality of the following websites. Those with an asterisk are not yet live and may have some goofs as the clients are working on content.
