@@ -2,7 +2,7 @@
 
 ### Websites
 
-*I was responsible for implementing our base theme and all custom styling and functionality of the following websites. Those with an asterisk are not yet live and may have some goofs as the clients are working on content.*
+I was responsible for implementing our base theme and all custom styling and functionality of the following websites. Those with an asterisk are not yet live and may have some goofs as the clients are working on content.
 
 - [***Central Ohio Technical College \****](https://live-cotc2020.pantheonsite.io/)
 - [***California Institute for Behavioral Health Solutions \****](https://live-cibhs-2020.pantheonsite.io/)
@@ -11,7 +11,7 @@
 
 ### Sample Code
 
-*Below, I detail the examples of my code and structure included in this repository. I hope these give you a good idea as to how I code and keep things organized.*
+Below, I detail the examples of my code and structure included in this repository. I hope these give you a good idea as to how I code and keep things organized.
 
 #### Date Formatter
 
