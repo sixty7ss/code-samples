@@ -24,3 +24,9 @@ Below, I detail the examples of my code and structure included in this repositor
 #### Style & Structure
 
 > This is an example of my typical directory structure, code style, and code standards. Files that begin with an underscore were not written by me, but are part of our standard model and are included to demonstrate structure. I do, however, add theme-specific code as necessary. ***[Sample](https://github.com/sixty7ss/code-samples/tree/master/Style%20Structure)***
+
+| Project | Description | Link |
+|---|---|---|
+| **Date Formatter** | This is a tool I built to allow me to take the default date rendered by Drupal and convert it to the format requested by the designer. As there are multiple displays that use these dates, I had to include support for not only events, but also news articles and, in one case, the Twitter feed. | ***[Sample](https://github.com/sixty7ss/code-samples/tree/master/Date%20Formatter)*** |
+| **String Splitter** | Often, the designer requests that a string, such a block title, be styled in multiple ways, such as two different colors or italicizing the last word. I created this simple script to split that string into usable spans to allow me to do so. | ***[Sample](https://github.com/sixty7ss/code-samples/tree/master/String%20Splitter)*** |
+| **Style & Structure** | This is an example of my typical directory structure, code style, and code standards. Files that begin with an underscore were not written by me, but are part of our standard model and are included to demonstrate structure. I do, however, add theme-specific code as necessary. | ***[Sample](https://github.com/sixty7ss/code-samples/tree/master/Style%20Structure)*** |
