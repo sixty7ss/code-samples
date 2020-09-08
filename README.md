@@ -1,6 +1,6 @@
 # Dave Young's Online Portfolio
 
-| Syntax | Description |
+| # Syntax Description |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
