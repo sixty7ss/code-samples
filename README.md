@@ -28,7 +28,7 @@ Below, I detail the examples of my code and structure included in this repositor
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
-| Paragraph | Text |
+| Paragraph | This is a tool I built to allow me to take the default date rendered by Drupal and convert it to the format requested by the designer. As there are multiple displays that use these dates, I had to include support for not only events, but also news articles and, in one case, the Twitter feed. |
 
 | ----------- | ----------- |
 | something | something |
