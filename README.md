@@ -30,8 +30,8 @@ Below, I detail the examples of my code and structure included in this repositor
 | Header | Title |
 | Paragraph | Text |
 
-| ----------- | ----------- | ----------- |
-| something | something | something |
-| ***Date Formatter*** | This is a tool I built to allow me to take the default date rendered by Drupal and convert it to the format requested by the designer. As there are multiple displays that use these dates, I had to include support for not only events, but also news articles and, in one case, the Twitter feed. | ***[Sample](https://github.com/sixty7ss/code-samples/tree/master/Date%20Formatter)*** |
+| ----------- | ----------- |
+| something | something |
+| ***Date Formatter*** | This is a tool I built to allow me to take the default date rendered by Drupal and convert it to the format requested by the designer. As there are multiple displays that use these dates, I had to include support for not only events, but also news articles and, in one case, the Twitter feed. ***[Sample](https://github.com/sixty7ss/code-samples/tree/master/Date%20Formatter)*** |
 
 | Paragraph | Text |
