@@ -4,7 +4,7 @@
 
 I was responsible for implementing our base theme and all custom styling and functionality of the following websites. Those with an asterisk are not yet live and may have some goofs as the clients are working on content. If either of these pages loads with an error, a refresh should wake it up.
 
-- [***Central Ohio Technical College \****](https://live-cotc2020.pantheonsite.io/)
+- [***Central Ohio Technical College \***](https://www.cotc.edu/)
 - [***California Institute for Behavioral Health Solutions \****](https://live-cibhs-2020.pantheonsite.io/)
 - [***San Bernardino County Employees' Retirement Association***](https://www.sbcera.org/)
 - [***Road America***](https://web.archive.org/web/20200714024038/https://www.roadamerica.com/)
