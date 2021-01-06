@@ -6,7 +6,7 @@ I was responsible for implementing our base theme and all custom styling and fun
 
 - [***Central Ohio Technical College***](https://www.cotc.edu/)
 - [***California Institute for Behavioral Health Solutions \****](https://live-cibhs-2020.pantheonsite.io/)
-- [***City of Chico***] (https://chico.ca.us/)
+- [***City of Chico***](https://chico.ca.us/)
 - [***San Bernardino County Employees' Retirement Association***](https://www.sbcera.org/)
 - [***Road America***](https://web.archive.org/web/20200714024038/https://www.roadamerica.com/)
 
